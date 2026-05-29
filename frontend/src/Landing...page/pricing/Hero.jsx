@@ -25,17 +25,15 @@ function Hero() {
                             <p className='p-4 text-muted' style={{fontSize:"16px", fontWeight:"600"}}>All direct mutual fund investments are absolutely free — ₹ 0 commissions & DP charges.</p>
                         </div>
                 </div>
-                <h1>hello world</h1>
-                <div className="charges-tab">
+            
+                {/* <div className="charges-tab">
                     <nav className='tabs'>
                         <a class="tab tab-equities sel" href="#tab-equities" data-id="equities">Equity</a>
                         <a class="tab tab-fo" href="#tab-fo" data-id="fo">F&amp;O</a>
                         <a class="tab tab-currency" href="#tab-currency" data-id="currency">Currency</a>
                         <a class="tab tab-commodities" href="#tab-commodities" data-id="commodities">Commodity</a>
                     </nav>
-                    
-                </div>
-                <h2>hello world</h2>
+                </div> */}
             </div>
         </div>
      );

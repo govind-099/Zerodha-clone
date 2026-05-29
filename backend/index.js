@@ -5,13 +5,12 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
 
+const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
 
 const authRoute = require("./routes/authRoutes");
 
 const app = express();
-
-const bodyParser = require("body-parser");
-const cookieParser = require("cookie-parser");
 
 
 const { HoldingsModel } = require("./model/HoldingsModel"); //first holdings data add keliye
