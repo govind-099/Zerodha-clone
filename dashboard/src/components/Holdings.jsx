@@ -13,7 +13,7 @@ const Holdings = () => {
 
   useEffect(()=>{
     //this axios .get method connect to the link who gives mongodb data  , the link is api end points links of index.js 
-      axios.get("http://localhost:3002/allHoldings").then((res)=>{
+      axios.get("https://zerodha-backend-kc0s.onrender.com/allHoldings").then((res)=>{
         console.log(res.data);
         setAllHoldings(res.data);
       })

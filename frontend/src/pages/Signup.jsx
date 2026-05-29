@@ -24,7 +24,7 @@ function Signup() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3002/api/auth/signup",
+        "https://zerodha-backend-kc0s.onrender.com/api/auth/signup",
         formData,
       );
       //token save
